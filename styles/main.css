@@ -74,6 +74,74 @@ nav .navigator .navigator_item a:hover {
   font-style: italic;
 }
 
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #c5c5c5;
+  border-bottom: 4px solid black;
+}
+
+.about .about__title {
+  font-family: "Gemunu Libre", sans-serif;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 36px;
+}
+
+.about .about__image {
+  width: 80%;
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
+}
+
+.about .about__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin: 24px;
+}
+
+.about .about__list li {
+  padding: 8px;
+}
+
+.about .about__list li p {
+  font-family: "Roboto";
+}
+
+.about .about__list li p::before {
+  content: "🌑";
+  padding-right: 6px;
+}
+
+.about .about__list li a {
+  text-decoration: none;
+  color: orange;
+}
+
+.about .about__list li a:hover {
+  color: #4d3200;
+}
+
+.about .about__list li a:before {
+  content: "🔗";
+  padding-right: 6px;
+}
+
 /* Load google's Roboto font*/
 /* Load google's Gemunu Libre font */
 /* Reboot */
