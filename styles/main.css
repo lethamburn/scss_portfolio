@@ -57,6 +57,16 @@ nav .navigator {
       justify-content: space-around;
 }
 
+@media only screen and (min-width: 992px) {
+  nav .navigator {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 260px;
+  }
+}
+
 nav .navigator .navigator_item {
   padding: 8px;
 }
@@ -101,6 +111,18 @@ nav .navigator .navigator_item a:hover {
   border-radius: 20px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
+}
+
+@media only screen and (min-width: 992px) {
+  .about .about__image {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .about .about__image {
+    width: 30%;
+  }
 }
 
 .about .about__list {

@@ -11,6 +11,11 @@ nav {
     align-items: center;
     justify-content: space-around;
 
+    @include desktop{
+      flex-direction: column;
+      height: 260px;
+    }
+
     .navigator_item {
       padding: 8px;
 

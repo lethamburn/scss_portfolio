@@ -16,6 +16,13 @@
     width: 80%;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
+
+    @include desktop {
+      width: 30%;
+    }
+    @include tablet {
+      width: 30%;
+    }
   }
 
   .about__list {
