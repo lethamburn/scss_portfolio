@@ -8,8 +8,16 @@
   .about__title {
     font-family: "Gemunu Libre", sans-serif;
     font-weight: bold;
+    text-transform: uppercase;
     padding: 20px;
     font-size: 36px;
+
+    &::before{
+      content: "·";
+    }
+    &::after{
+      content: "·";
+    }
   }
 
   .about__image {
@@ -36,6 +44,7 @@
 
       p {
         font-family: "Roboto";
+        font-weight: bold;
 
         &::before {
           content: "🌑";
@@ -43,8 +52,10 @@
         }
       }
       a {
+        font-family: "Roboto";
+        font-weight: bold;
         text-decoration: none;
-        color: $orange-primary-color;
+        color: $orange-fourth-color;
 
         &:hover {
           color: $orange-third-color;

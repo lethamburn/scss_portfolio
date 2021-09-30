@@ -7,10 +7,10 @@
   background-color: $black-fourth-color;
 
   .contact__video {
-    margin: 40px;
+    margin: 10px;
     box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
     border-radius: 12px;
-    width: 90%;
+    width: 95%;
     height: 250px;
   }
   .contact__crawl {
@@ -21,14 +21,17 @@
     background-position: left;
     box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
     padding: 40px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 30px;
     border-radius: 14px;
 
     p {
       text-align: justify;
       font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      font-weight: 500;
       color: $orange-crawl-color;
+      
     }
   }
 }

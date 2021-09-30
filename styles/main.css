@@ -38,7 +38,7 @@
 }
 
 nav {
-  background-color: black;
+  background-color: #010010;
   background-image: url("https://i.imgur.com/yXDckg0.jpg");
   background-size: 60%;
   background-position: center center;
@@ -102,8 +102,17 @@ nav .navigator .navigator_item a:hover {
 .about .about__title {
   font-family: "Gemunu Libre", sans-serif;
   font-weight: bold;
+  text-transform: uppercase;
   padding: 20px;
   font-size: 36px;
+}
+
+.about .about__title::before {
+  content: "·";
+}
+
+.about .about__title::after {
+  content: "·";
 }
 
 .about .about__image {
@@ -143,6 +152,7 @@ nav .navigator .navigator_item a:hover {
 
 .about .about__list li p {
   font-family: "Roboto";
+  font-weight: bold;
 }
 
 .about .about__list li p::before {
@@ -151,8 +161,10 @@ nav .navigator .navigator_item a:hover {
 }
 
 .about .about__list li a {
+  font-family: "Roboto";
+  font-weight: bold;
   text-decoration: none;
-  color: orange;
+  color: #8f0000;
 }
 
 .about .about__list li a:hover {
@@ -187,11 +199,12 @@ nav .navigator .navigator_item a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 45%;
+  width: 80%;
   height: 200px;
   margin: 20px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
+  border-radius: 20px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -253,11 +266,11 @@ nav .navigator .navigator_item a:hover {
 }
 
 .contact .contact__video {
-  margin: 40px;
+  margin: 10px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
   border-radius: 12px;
-  width: 90%;
+  width: 95%;
   height: 250px;
 }
 
@@ -270,14 +283,16 @@ nav .navigator .navigator_item a:hover {
   -webkit-box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
   padding: 40px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 30px;
   border-radius: 14px;
 }
 
 .contact .contact__crawl p {
   text-align: justify;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
   color: #F7C110;
 }
 
@@ -295,7 +310,7 @@ footer p {
   font-family: "Gemunu Libre", sans-serif;
   padding: 10px;
   text-align: center;
-  color: white;
+  color: #8f0000;
 }
 
 /* Load google's Roboto font*/
