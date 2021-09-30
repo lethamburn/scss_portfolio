@@ -1,0 +1,10 @@
+//TODO: EJEMPLO USO
+h1 {
+  font-size: 24px;
+  @include tablet {
+    font-size: 36px;
+  }
+  @include desktop {
+    font-size: 42px;
+  }
+}
