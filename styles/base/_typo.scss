@@ -9,6 +9,8 @@
 
 /* Load google's Roboto font*/
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,900);
+/* Load google's Gemunu Libre font */
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;400;700&display=swap");
 
 /* Reboot */
 html,
@@ -18,7 +20,7 @@ body {
 
 /* Typography */
 body {
-  font-family: "Roboto", "Helvetica Neue, Helvetica, Arial";
+  font-family: "Gemunu Libre", sans-serif;
 }
 /*Convertion Ration sp to rem for html */
 $conversionRatioSpToRemWeb: 1/16; //! 0.0625;

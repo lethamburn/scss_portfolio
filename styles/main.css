@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,900);
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;400;700&display=swap");
 .tablet-grid {
   display: -ms-grid;
   display: grid;
@@ -36,7 +37,45 @@
   gap: 0.5rem;
 }
 
+nav {
+  background-color: black;
+  background-image: url("https://i.imgur.com/yXDckg0.jpg");
+  background-size: 60%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+nav .navigator {
+  height: 115px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav .navigator .navigator_item {
+  padding: 8px;
+}
+
+nav .navigator .navigator_item a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 20px;
+}
+
+nav .navigator .navigator_item a:hover {
+  color: orange;
+  font-style: italic;
+}
+
 /* Load google's Roboto font*/
+/* Load google's Gemunu Libre font */
 /* Reboot */
 html,
 body {
@@ -45,7 +84,7 @@ body {
 
 /* Typography */
 body {
-  font-family: "Roboto", "Helvetica Neue, Helvetica, Arial";
+  font-family: "Gemunu Libre", sans-serif;
 }
 
 /*Convertion Ration sp to rem for html */

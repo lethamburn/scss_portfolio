@@ -1,0 +1,31 @@
+nav {
+  background-color: $black-primary-color;
+  background-image: url("https://i.imgur.com/yXDckg0.jpg");
+  background-size: 60%;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  .navigator {
+    height: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .navigator_item {
+      padding: 8px;
+
+      a {
+        text-decoration: none;
+        color: $black-secondary-color;
+        text-transform: uppercase;
+        font-family: "Gemunu Libre", sans-serif;
+        font-size: 20px;
+
+        &:hover {
+          color: $orange-primary-color;
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
