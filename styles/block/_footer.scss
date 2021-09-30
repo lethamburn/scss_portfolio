@@ -1,0 +1,13 @@
+footer {
+  display: flex;
+  align-content: center;
+  height: 40px;
+  background-color: $black-primary-color;
+
+  p {
+    font-family: "Gemunu Libre", sans-serif;
+    padding: 10px;
+    text-align: center;
+    color: $black-secondary-color;
+  }
+}

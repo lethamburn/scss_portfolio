@@ -1,0 +1,34 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  justify-content: center;
+  border-bottom: 4px solid black;
+  background-color: $black-fourth-color;
+
+  .contact__video {
+    margin: 40px;
+    box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
+    border-radius: 12px;
+    width: 90%;
+    height: 250px;
+  }
+  .contact__crawl {
+    background-color: black;
+    background-image: url("https://wallpaperaccess.com/full/1145374.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
+    padding: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 14px;
+
+    p {
+      text-align: justify;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      color: $orange-crawl-color;
+    }
+  }
+}

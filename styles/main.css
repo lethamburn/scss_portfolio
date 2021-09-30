@@ -142,6 +142,140 @@ nav .navigator .navigator_item a:hover {
   padding-right: 6px;
 }
 
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px;
+  background-color: orange;
+  border-bottom: 4px solid black;
+}
+
+.gallery .gallery__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 45%;
+  height: 200px;
+  margin: 20px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gallery .gallery__item h2 {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.514);
+  color: white;
+  font-family: "Gemunu Libre";
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.gallery .gallery__item--1 {
+  background-image: url("https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2021/02/darth-vader-rogue-one-historia-star-wars-2219585.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.gallery .gallery__item--2 {
+  background-image: url("../assets/images/newhope.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.gallery .gallery__item--3 {
+  background-image: url("https://tamtampress.files.wordpress.com/2019/05/star-wars-yo-soy-tu-padre.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.gallery .gallery__item--4 {
+  background-image: url("https://www.cultture.com/pics/2021/04/10-personajes-de-star-wars-a-los-que-darth-vader-respeta-y-por-que-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 4px solid black;
+  background-color: #c5c5c5;
+}
+
+.contact .contact__video {
+  margin: 40px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
+  border-radius: 12px;
+  width: 90%;
+  height: 250px;
+}
+
+.contact .contact__crawl {
+  background-color: black;
+  background-image: url("https://wallpaperaccess.com/full/1145374.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
+  padding: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 14px;
+}
+
+.contact .contact__crawl p {
+  text-align: justify;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #F7C110;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 40px;
+  background-color: black;
+}
+
+footer p {
+  font-family: "Gemunu Libre", sans-serif;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
 /* Load google's Roboto font*/
 /* Load google's Gemunu Libre font */
 /* Reboot */

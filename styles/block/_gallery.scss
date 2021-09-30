@@ -1,0 +1,55 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: $orange-primary-color;
+  border-bottom: 4px solid black;
+
+  .gallery__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 200px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.589) 0px 5px 15px;
+    object-fit: cover;
+
+    h2 {
+      padding: 10px;
+      border-radius: 10px;
+      margin: 10px;
+      background-color: $black-transparent-color;
+      color: $black-secondary-color;
+      font-family: "Gemunu Libre";
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+  .gallery__item--1 {
+    background-image: url("https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2021/02/darth-vader-rogue-one-historia-star-wars-2219585.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .gallery__item--2 {
+    background-image: url("../assets/images/newhope.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .gallery__item--3 {
+    background-image: url("https://tamtampress.files.wordpress.com/2019/05/star-wars-yo-soy-tu-padre.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .gallery__item--4 {
+    background-image: url("https://www.cultture.com/pics/2021/04/10-personajes-de-star-wars-a-los-que-darth-vader-respeta-y-por-que-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}
